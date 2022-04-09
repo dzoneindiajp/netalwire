@@ -1,0 +1,165 @@
+ 
+.story-sec{
+  padding: 100px 0
+}
+.story-bg1 {
+    background: #f8f9fa;
+}
+
+.bg-light {
+    background-color: #ffd9c8!important;
+}
+.story-bg2 {
+    background: #ffd9c8;
+}
+
+.story-title0{
+  font-family: 'Stalemate', cursive;
+  }
+  .story-title{ 
+  font-size: 9em;
+  margin: 0
+}
+
+.story-title-2{ 
+  font-size: 4em;
+  margin: 0;
+  letter-spacing: 4px
+}
+.story-title-3{ 
+  font-size: 9em;
+  text-align: center;
+  margin: 0;
+  letter-spacing: 4px;
+  color: #e86625;
+  line-height: 0.8;
+}
+ 
+
+.sec-title2{
+position: relative;
+    bottom: -40px;
+}
+.sec-title2 h2 {
+    position: relative;
+    color: #222222;
+    font-weight: 800;
+    font-size: 4em;
+    line-height: 1.2em; 
+    margin-top: -70px
+}
+
+.story-head h2 {
+    color: #222222;
+    font-weight: 500;
+    font-size: 6em;
+    line-height: 1.2em;
+    margin-top: -50px;
+    margin-bottom: 30px;
+}
+
+
+.title-2 {
+    text-align: left;
+    padding: 0;
+    margin-left: -15px; 
+    position: relative;
+    top: 40px;
+    color: #ff5500;
+}
+
+.title-3 {
+    text-align: left;
+    padding: 0;
+    /* margin-right: -54px; */
+    position: relative;
+    top: 40px;
+    right: -30px;
+    color: #ff5500;
+} 
+a.more {
+    color: #242323;
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+a.more:hover {
+    color: #e86625;
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+
+
+/*Zoom In*/
+.story-img  {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  margin-bottom: 15px
+}
+.story-img:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+   x
+}
+
+/*Zoom In*/
+.story-img2  {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  margin-bottom: 15px
+}
+.story-img2:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+     
+}
+
+.story-img0  { 
+  margin-bottom: 15px; 
+}
+ 
+
+
+@media only screen and (max-width: 750px) {
+   .story-title {
+    font-size: 5em;
+    margin: 0;
+}
+
+
+.sec-title2 h2 {
+    position: relative;
+    color: #222222;
+    font-weight: 800;
+    font-size: 3em;
+    line-height: 1.2em;
+    margin-top: -48px;
+}
+.title-2 {
+    text-align: left;
+    padding: 0;
+    margin-left: 10px;
+     position: relative; 
+     top: 0px; 
+    color: #ff5500;
+     width: 100%; 
+}
+
+
+.story-title-2 {
+    font-size: 3em;
+    margin: 0;
+    letter-spacing: 4px;
+}
+
+.story-sec {
+    padding: 50px 0;
+}
+}
